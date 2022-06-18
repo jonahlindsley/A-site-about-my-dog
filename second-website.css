@@ -1,0 +1,176 @@
+/* jailbreak*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+height: 100%;
+}
+
+/* the styling of the main bankground*/
+/* main body color*/
+body{
+    background-color: lightgreen;
+
+}
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: palevioletred;
+     
+    }
+  }
+  /* header placemect and style*/
+  .header-bar{
+    position: absolute;
+        width: 100%;
+        top: 0;
+    margin-bottom: 20px;
+    background-color: deepskyblue;
+    }
+  header h3{
+    padding: 15px;
+    color: aliceblue;
+    text-align: left;
+    width: 70%;
+}
+/* nav links placecment and stying */
+.header-bar nav{
+position: absolute;
+    width: 25%;
+    top: 0;
+    right: 0;
+}
+/* nav styles*/
+nav ul li a{
+    color: aliceblue;
+text-decoration: none;
+font-family: sans-serif;
+}
+.boxing{
+    background-color: aquamarine;
+    padding: 15px;
+    margin: 90px 20px 30px 20px;
+    height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+/* layout of the large box*/
+#box-1{
+    display: flex;
+        flex-grow: 2;
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 15px;
+}
+@media screen and (min-width: 1200px) {
+    #box-1{
+        background-color:chocolate
+     
+    }
+}
+/* layout of the the left box*/
+#box-2{
+display: flex;
+   flex-grow: 1;
+float: left;
+background-color: aqua;
+margin: 20px;
+padding: 15px;
+}
+
+@media screen and (min-width: 1200px) {
+    #box-2{
+        background-color:hotpink
+    }
+}
+/* layout of the right box*/
+#box-3{
+display: flex;
+    flex-grow: 1;
+float: right;
+background-color:fuchsia;
+margin: 20px;
+padding: 20px; 
+}
+@media screen and (min-width: 1200px) {
+    #box-3 {
+        background-color:mistyrose
+     
+    }
+}
+/* layout of the main section box*/
+.section-flex{
+background-color:rgb(225, 126, 220);
+padding: 15px;
+margin: 30px 20px 30px 20px;
+height: 300px;
+display: flex;
+justify-content: space-around;
+align-items: stretch;
+}
+#flex-1{
+display: flex;
+flex-grow: 2;
+margin: 15px;
+padding: 15px;
+background-color: rgb(31, 236, 236);
+}
+@media screen and (min-width: 1200px) {
+    #flex-1 {
+        background-color:dodgerblue;
+        color: aliceblue;
+    }
+}
+#flex-2{
+    display: flex;
+    flex-grow: 1;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(116, 186, 186);
+}
+@media screen and (min-width: 1200px) {
+    #flex-2 {
+        background-color:indigo;
+        color: aliceblue;
+        
+    }
+}
+#flex-3{
+    display: flex;
+    flex-grow: 1;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(70, 185, 234);
+}
+@media screen and (min-width: 1200px) {
+    #flex-3 {
+        background-color:rgb(46, 77, 134);
+        color: aliceblue;
+    }
+}
+/* basic style of the footer */
+.bottom{
+background-color: deepskyblue;
+padding: 15px;
+width:100%;
+bottom:0px;
+
+}
+/* this styles the bio tag*/
+#bio{
+margin: 15px;
+padding: 15px;
+background-color: rgb(134, 218, 243);
+}
+/* centers bio header line*/
+#bio h2{
+    text-align: center;
+}
+/* refined footer*/
+.bottom{
+color: beige;
+text-align: center;
+/*margin-left: auto;
+margin-right: auto;*/
+}
