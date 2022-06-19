@@ -45,7 +45,17 @@ nav ul li a{
     color: aliceblue;
 text-decoration: none;
 font-family: sans-serif;
+display: inline;
+font-weight: bold;
 }
+div h2{
+display: flex;
+flex-grow: 1;
+}
+.vertical-rl {
+    writing-mode: vertical-rl;
+  }
+
 .boxing{
     background-color: aquamarine;
     padding: 15px;
@@ -166,6 +176,27 @@ background-color: rgb(134, 218, 243);
 /* centers bio header line*/
 #bio h2{
     text-align: center;
+}
+/* defines the block og img's*/
+.section-img{
+background-color:rgb(255, 169, 219);
+padding: 15px;
+margin: 30px 20px 30px 20px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+/*display: flex;
+justify-content: space-around;
+align-items: stretch;*/
+}
+/* placement and stying og img's*/
+section img{
+display: flex;
+flex-grow: 1;
+padding: 15;
+margin: 15;
+height: 400px;
+
 }
 /* refined footer*/
 .bottom{
